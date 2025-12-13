@@ -171,7 +171,20 @@
             line-height: 1.8;
             box-shadow: 0 2px 8px rgba(0,0,0,0.05);
         }
-
+        .download_btn{
+             
+            display: inline-block;
+            padding: 10px 25px;
+            background: linear-gradient(120deg, #d9b36c 0%, #e6c288 100%);
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+            transition: all 0.2s ease;
+        
+        }
         
 
         /* 移动端适配（保证布局结构一致，仅调整宽度） */
@@ -182,7 +195,7 @@
         }
         @media (max-width: 768px) {
             .resume-container {
-                width: 90%;
+                width: 95%;
                 flex-direction: column;
             }
             .left-column, .right-column {
