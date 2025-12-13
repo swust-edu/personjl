@@ -29,6 +29,15 @@
             color: #fff;
             padding: 40px 30px;
         }
+        .logo{
+           width: 60px;
+           height: 60px;
+           
+           display: block;
+           object-fit: cover; /* 关键：图片按比例填充，不拉伸变形 */
+    /* 其他样式不变 */
+           
+        }
         .avatar {
             width: 100px;
             height: 140px;
@@ -50,7 +59,7 @@
             margin-bottom: 5px;
         }
         .major {
-            font-size: 16px;
+            font-size: 18px;
             color: #bdc3c7;
             text-align: center;
             margin-bottom: 30px;
@@ -59,7 +68,7 @@
             display: flex;
             align-items: center;
             margin-bottom: 18px;
-            font-size: 14px;
+            font-size: 16px;
         }
         .contact-icon {
             width: 24px;
@@ -85,7 +94,7 @@
         }
         .skill-item {
             margin-bottom: 12px;
-            font-size: 14px;
+            font-size: 16px;
             color: #aeb7be;
         }
         .skill-category {
@@ -95,7 +104,7 @@
         }
         .cert-list {
             list-style: none;
-            font-size: 14px;
+            font-size: 16px;
             color: #bdc3c7;
         }
         .cert-item {
@@ -115,7 +124,7 @@
             font-size: 22px;
             font-weight: bold;
             color: #2c3e50;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             padding-left: 15px;
             border-left: 4px solid #3498db;
         }
@@ -123,13 +132,13 @@
             background-color: #f8f9fa;
             border-radius: 8px;
             padding: 20px;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.05);
         }
         .card-header {
             display: flex;
             justify-content: space-between;
-            margin-bottom: 12px;
+            margin-bottom: 5px;
         }
         .card-title {
             font-size: 18px;
@@ -137,7 +146,7 @@
             color: #2c3e50;
         }
         .card-time {
-            font-size: 14px;
+            font-size: 16px;
             color: #7f8c8d;
         }
         .card-content {
