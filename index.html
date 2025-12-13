@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>杨佳云 - 简历</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", Arial, sans-serif;
+        }
+        body {
+            background-color: #f5f7fa;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px 0;
+        }
+        /* 固定宽度容器，保证多端布局一致 */
+        .resume-container {
+            width: 1000px;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.08);
+            display: flex;
+            flex-wrap: wrap;
+            overflow: hidden;
+        }
+        /* 左侧个人信息栏 */
+        .left-column {
+            width: 35%;
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 40px 30px;
+        }
+        .avatar {
+            width: 100px;
+            height: 140px;
+            border-radius: 0%;
+            border: 4px solid #3498db;
+            margin: 0 auto 30px;
+            display: block;
+            object-fit: cover;
+            background-color: #ecf0f1;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 24 24' fill='none' stroke='%232c3e50' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 60%;
+        }
+        .name {
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        .major {
+            font-size: 16px;
+            color: #bdc3c7;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 18px;
+            font-size: 14px;
+        }
+        .contact-icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #3498db;
+        }
+        .left-section {
+            margin-top: 40px;
+        }
+        .left-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #3498db;
+        }
+        .skill-list {
+            list-style: none;
+        }
+        .skill-item {
+            margin-bottom: 12px;
+            font-size: 14px;
+            color: #bdc3c7;
+        }
+        .skill-category {
+            font-weight: bold;
+            color: #fff;
+            margin-bottom: 8px;
+        }
+        .cert-list {
+            list-style: none;
+            font-size: 14px;
+            color: #bdc3c7;
+        }
+        .cert-item {
+            margin-bottom: 10px;
+        }
+
+        /* 右侧内容栏 */
+        .right-column {
+            width: 65%;
+            padding: 40px 40px;
+        }
+        .right-section {
+            margin-bottom: 40px;
+        }
+        .right-title {
+            font-size: 22px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            padding-left: 15px;
+            border-left: 4px solid #3498db;
+        }
+        .edu-card, .intern-card, .campus-card, .project-card {
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 12px;
+        }
+        .card-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .card-time {
+            font-size: 14px;
+            color: #7f8c8d;
+        }
+        .card-content {
+            font-size: 15px;
+            color: #34495e;
+            line-height: 1.6;
+        }
+        .content-list {
+            list-style: disc;
+            margin-left: 20px;
+            margin-top: 8px;
+        }
+        .content-item {
+            margin-bottom: 6px;
+        }
+        .self-intro {
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            font-size: 15px;
+            color: #34495e;
+            line-height: 1.8;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        /* 移动端适配（保证布局结构一致，仅调整宽度） */
+        @media (max-width: 1024px) {
+            .resume-container {
+                width: 800px;
+            }
+        }
+        @media (max-width: 768px) {
+            .resume-container {
+                width: 90%;
+                flex-direction: column;
+            }
+            .left-column, .right-column {
+                width: 100%;
+            }
+            .left-column {
+                padding: 30px 20px;
+            }
+            .right-column {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <!-- 左侧个人信息栏 -->
+        <div class="left-column">
+            <!-- 头像 -->
+            <img src="photo.jpg" alt="杨佳云头像" class="avatar">
+            
+            <!-- 姓名与专业 -->
+            <div class="name">杨佳云</div>
+            <div class="major">机械设计制造及其自动化</div>
+            
+            <!-- 联系方式 -->
+            <div class="contact-section">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                    </div>
+                    <div>16683085216</div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </div>
+                    <div>2733426499@qq.com</div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                    </div>
+                    <div>四川广安</div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                            <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                        </svg>
+                    </div>
+                    <div>2002.07</div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                            <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                        </svg>
+                    </div>
+                    <div>本科 · 2026届应届</div>
+                </div>
+            </div>
+            
+            <!-- 专业技能 -->
+            <div class="left-section">
+                <div class="left-title">专业技能</div>
+                <ul class="skill-list">
+                    <li class="skill-category">设计软件</li>
+                    <li class="skill-item">SolidWorks：三维建模、装配仿真</li>
+                    <li class="skill-item">UG/NX：复杂零件设计</li>
+                    <li class="skill-item">AutoCAD：二维工程图输出</li>
+                    
+                    <li class="skill-category mt-4">测量质检</li>
+                    <li class="skill-item">掌握游标卡尺、螺旋测微仪、高度规</li>
+                    <li class="skill-item">掌握万用表、验电笔、摇表</li>
+                    
+                    <li class="skill-category mt-4">设备维护</li>
+                    <li class="skill-item">机床、电机日常润滑与清理</li>
+                    <li class="skill-item">紧固件检查、基础保养与台账记录</li>
+                    
+                    <li class="skill-category mt-4">办公软件（Office套件）</li>
+                    <li class="skill-item">Word：熟练技术文档排版、图文混排、目录生成，高效完成机械设计报告编制</li>
+                    <li class="skill-item">Excel：掌握数据透视表、基础函数，快速整理BOM清单、统计实训数据</li>
+                    <li class="skill-item">PowerPoint：擅长工程类汇报PPT制作，整合图纸、数据图表，突出核心成果</li>
+                </ul>
+            </div>
+            
+            <!-- 奖励证书 -->
+            <div class="left-section">
+                <div class="left-title">奖励与证书</div>
+                <ul class="cert-list">
+                    <li class="cert-item">2022年度励志奖学金</li>
+                    <li class="cert-item">2023年度励志奖学金</li>
+                    <li class="cert-item">2022年学院奖学金一等奖</li>
+                    <li class="cert-item">2023年学院奖学金三等奖</li>
+                    <li class="cert-item">低压电工作业证</li>
+                    <li class="cert-item">四川省办公软件专项能力证书</li>
+                    <li class="cert-item">全国三维数字化技术应用能力证书</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 右侧内容栏 -->
+        <div class="right-column">
+            <!-- 教育背景 -->
+            <div class="right-section">
+                <div class="right-title">教育背景</div>
+                <div class="edu-card">
+                    <div class="card-header">
+                        <div class="card-title">西南科技大学 · 机械设计制造及其自动化</div>
+                        <div class="card-time">2026应届毕业生</div>
+                    </div>
+                    <div class="card-content">
+                        <strong>主修课程：</strong>机械设计、机械制造基础、机械原理、机电控制技术、微机原理与接口技术、液压与气压传动等
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 实习经历 -->
+            <div class="right-section">
+                <div class="right-title">实习经历</div>
+                <div class="intern-card">
+                    <div class="card-header">
+                        <div class="card-title">哈德曼自动设备有限公司 · 机械实习生</div>
+                        <div class="card-time">2024.06 - 2024.09</div>
+                    </div>
+                    <div class="card-content">
+                        <strong>核心职责：</strong>协助工程师开展机械零部件绘制及修改工作，根据客户具体需求参与整体技术方案的规划与讨论；配合团队完成零部件的图纸绘制、模型构建及装配环节的辅助工作。
+                        <ul class="content-list">
+                            <li class="content-item">完成30余种关键零部件绘制，图纸通过率100%，参与2台设备设计辅助，试产故障率降低15%</li>
+                            <li class="content-item">独立完成2D制图与3D建模，整理12套标准件库提升复用效率，工艺优化后零件合格率达98%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 校园经历 -->
+            <div class="right-section">
+                <div class="right-title">校园经历</div>
+                <!-- 实训课程助教 -->
+                <div class="campus-card">
+                    <div class="card-header">
+                        <div class="card-title">实训课程助教</div>
+                        <div class="card-time">2023.03 - 2023.06</div>
+                    </div>
+                    <div class="card-content">
+                        指导30名大一学生完成2D工程图绘制、游标卡尺使用等实操训练，批改图纸作业100余份，标注问题200余处并提供修改建议；建立线上答疑群，解答“三视图绘制”等问题，整理实训资料包，最终提高30%课程通过率。
+                    </div>
+                </div>
+                <!-- 单片机项目设计开发 -->
+                <div class="campus-card">
+                    <div class="card-header">
+                        <div class="card-title">单片机项目设计开发 · 团队队长</div>
+                        <div class="card-time">2025.06 - 2025.07</div>
+                    </div>
+                    <div class="card-content">
+                        牵头完成51单片机感应控制程序编写、实物功能实现及仿真模拟，通过红外人体感应模块实现灯具“人来灯亮、人走灯灭”的节能功能；采用模块化编程让冗余代码减少40%，单片机性能占用率降低20%；统筹完成团队任务分工与全部数据的整合，带领团队完成项目。
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 自我评价 -->
+            <div class="right-section">
+                <div class="right-title">自我评价</div>
+                <div class="self-intro">
+                    踏实肯干，任劳任怨，不挑活不抱怨，全力落地各项工作；有上进心，秉持勤恳务实态度，不推诿不敷衍，脏活累活愿承接，把事做扎实；做事不挑拣、不计得失，服从安排，以“老黄牛”心态做好每一项工作；任劳任怨，有求必应，工作认真负责，具备机械设计与制造领域的实操能力和团队协作意识。
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
