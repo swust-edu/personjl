@@ -14,6 +14,18 @@
         // 分类属性（可选自定义，也可固定）
         category: "solidworks"
       },
+      {
+        // 图片直链（自定义）
+        imgUrl: "3djpg/装配体1.gif",
+        // 标题（自定义）
+        title: "泵体装配",
+        // 标签（自定义）
+        tag: "SoloidWorks",
+        // 介绍/描述（自定义）
+        desc: "泵体装配动画展示",
+        // 分类属性（可选自定义，也可固定）
+        category: "solidworks"
+      },
      {
         // 图片直链（自定义）
         imgUrl: "https://zhaohuihui.oss-cn-hangzhou.aliyuncs.com/zhaohuihui/file/2.JPG",
@@ -166,3 +178,4 @@
     });
 
    
+
