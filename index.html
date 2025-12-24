@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>极简INS风作品导航页</title>
+    <link rel="stylesheet" href="css/sty.css">
+  <!-- 图标库 -->
+  <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- 引入Poppins字体（可选，增强INS感） -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- 顶部导航栏 -->
+  <header class="header">
+    <div class="logo">我的<span>主页</span></div>
+    <nav class="nav-menu">
+      <a href="#" class="nav-item">首页</a>
+      <a href="#works" class="nav-item">作品展示</a>
+      <a href="#tools" class="nav-item">工具导航</a>
+      <a href="#about" class="nav-item">关于我</a>
+    </nav>
+  </header>
+
+  <!-- 主内容区 -->
+  <main class="main">
+    <!-- 欢迎区域 -->
+    <section class="hero">
+      <h1 class="hero-title">Hi, 这是我的 <strong>个人</strong> 网页</h1>
+      <p class="hero-desc">用网页展示我的个人能力，简约而不简单</p>
+    </section>
+
+    <!-- 作品分类导航 -->
+    <section class="category-section" id="works">
+      <h2 class="section-title">作品展示</h2>
+      <div class="nav-grid">
+        <!-- 导航卡片1 -->
+        <a href="你的SolidWorks作品页.html" class="nav-card">
+          <div class="card-img">
+            <i class="fas fa-cube"></i>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">SolidWorks建模</h3>
+            <p class="card-desc">轴类、齿轮、轴承座等机械零件三维建模作品合集</p>
+          </div>
+        </a>
+
+        <!-- 导航卡片2 -->
+        <a href="你的前端作品页.html" class="nav-card">
+          <div class="card-img">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">前端开发</h3>
+            <p class="card-desc">HTML/CSS/JS实现的响应式网页，含毛玻璃等高级效果</p>
+          </div>
+        </a>
+
+        <!-- 导航卡片3 -->
+        <a href="你的GIF演示页.html" class="nav-card">
+          <div class="card-img">
+            <i class="fas fa-play-circle"></i>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">建模过程演示</h3>
+            <p class="card-desc">SolidWorks建模步骤动态GIF，还原设计全流程</p>
+          </div>
+        </a>
+
+        <!-- 导航卡片4 -->
+        <a href="你的其他作品页.html" class="nav-card">
+          <div class="card-img">
+            <i class="fas fa-folder-open"></i>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">其他作品</h3>
+            <p class="card-desc">技术练习与创意设计，记录成长的每一步</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- 工具快捷导航 -->
+    <section class="category-section shortcut-section" id="tools">
+      <h2 class="section-title">快捷工具</h2>
+      <div class="shortcut-list">
+        <div class="shortcut-item">
+          <a href="https://github.com" target="_blank" class="shortcut-link">
+            <i class="fab fa-github shortcut-icon"></i>
+            <span>GitHub</span>
+          </a>
+        </div>
+        <div class="shortcut-item">
+          <a href="https://www.solidworks.com" target="_blank" class="shortcut-link">
+            <i class="fas fa-cogs shortcut-icon"></i>
+            <span>SolidWorks官网</span>
+          </a>
+        </div>
+        <div class="shortcut-item">
+          <a href="你的常用工具1.html" class="shortcut-link">
+            <i class="fas fa-tools shortcut-icon"></i>
+            <span>建模辅助工具</span>
+          </a>
+        </div>
+        <div class="shortcut-item">
+          <a href="你的常用工具2.html" class="shortcut-link">
+            <i class="fas fa-file-code shortcut-icon"></i>
+            <span>前端代码库</span>
+          </a>
+        </div>
+        <div class="shortcut-item">
+          <a href="你的常用工具3.html" class="shortcut-link">
+            <i class="fas fa-image shortcut-icon"></i>
+            <span>图片素材库</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section class="category-section" id="about">
+      <h2 class="section-title">关于我</h2>
+      <a href="#" class="nav-card" style="display: block;">
+        <div class="card-img">
+          <i class="fas fa-user"></i>
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">个人简介</h3>
+          <p class="card-desc">一名专注于机械设计与前端开发的学习者，喜欢用SolidWorks构建精密模型，用代码创造美观的展示页面。致力于将技术与美学结合，让作品既有实用价值，又有视觉美感。</p>
+        </div>
+      </a>
+    </section>
+  </main>
+
+  
+</body>
+</html>
