@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3D建模作品展示 | 杨佳云</title>
-   <link rel="stylesheet" href="css/3dp.css">
-   <script src="js/js.js" defer></script>
+    
+    <link rel="stylesheet" href="css/3dp.css">
+    <!-- 引入Poppins字体增强INS感 -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <!-- 头部标题 -->
+        <!-- 头部标题（INS风格优化） -->
         <div class="header">
-            <h1>3D建模作品展示</h1>
+            <h1>3D建模<span strong>作品展示</span></h1>
             <p>SolidWorks / UG/NX / AutoCAD 设计作品</p>
         </div>
 
-        <!-- 筛选按钮 -->
+        <!-- 筛选按钮（INS风格圆角标签） -->
         <div class="filter-buttons">
             <button class="filter-btn active" data-filter="all">全部作品</button>
             <button class="filter-btn" data-filter="solidworks">SolidWorks</button>
@@ -23,26 +25,14 @@
             <button class="filter-btn" data-filter="autocad">AutoCAD</button>
         </div>
 
-        <!-- 作品画廊 -->
+        <!-- 作品画廊（示例数据，你可替换为自己的作品） -->
         <div class="gallery">
-           
-    
+            
         </div>
     </div>
 
-    <!-- 图片预览弹窗 -->
-    <div class="preview-modal" id="previewModal">
-        <div class="preview-content" id="previewContent">
-            <img src="" alt="预览图片" class="preview-img" id="previewImg">
-            <button class="close-btn" id="closeBtn">&times;</button>
-        </div>
-    </div>
+   
 
-    
 </body>
-
+<script src="js/js.js" defer></script>
 </html>
-
-
-
-
