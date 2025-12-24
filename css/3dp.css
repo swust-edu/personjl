@@ -1,85 +1,85 @@
 
-/* 全局重置 */
+/* 全局重置+INS风格基础 */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Inter", "PingFang SC", "Microsoft YaHei", sans-serif;
+    font-family: "Poppins", "PingFang SC", "Microsoft Yahei", sans-serif;
 }
 
-/* 无限星空背景（延续简历风格） */
 body {
-    background: 
-        radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%),
-        url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M50 50c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10 10 4.477 10 10zm0-20c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10 10 4.477 10 10zm0 40c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10 10 4.477 10 10zm20-20c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10 10 4.477 10 10zm-40 0c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10 10 4.477 10 10zm60 20c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10 10 4.477 10 10zm-20-20c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10 10 4.477 10 10zm-20-20c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10 10 4.477 10 10z' fill='%23ffffff' fill-opacity='0.05' fill-rule='evenodd'/%3E%3C/svg%3E");
-    animation: starMove 80s linear infinite;
-    background-attachment: fixed;
-    color: #fff;
-    min-height: 100vh;
-    padding: 20px 0;
-}
-
-
-/* 页面容器 */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
+    background-color: #f9f7f5;
+    color: #333;
+    line-height: 1.6;
     padding: 0 20px;
 }
 
-/* 头部标题 */
+/* 容器布局（INS风留白） */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 0 80px;
+}
+
+/* 头部标题（INS风简约） */
 .header {
     text-align: center;
-    margin: 40px 0 50px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
+    margin-bottom: 60px;
+    padding: 20px 0;
 }
 
 .header h1 {
-    font-size: 32px;
+    font-size: 36px;
+    font-weight: 500;
+    color: #222;
+    margin-bottom: 12px;
+    letter-spacing: -0.5px;
+}
+
+.header h1 strong {
+    color: #8b7d6b;
     font-weight: 600;
-    margin-bottom: 10px;
-    color: #e2e8f0;
 }
 
 .header p {
     font-size: 16px;
-    color: #94a3b8;
+    color: #777;
 }
 
-/* 筛选按钮 */
+/* 筛选按钮（INS风圆角标签） */
 .filter-buttons {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 12px;
     margin-bottom: 40px;
-    flex-wrap: wrap;
 }
 
 .filter-btn {
     padding: 8px 20px;
-    background-color: rgba(51, 63, 81, 0.8);
-    border: 1px solid rgba(255,255,255,0.1);
-    border-radius: 8px;
-    color: #e2e8f0;
+    background-color: #fff;
+    border: none;
+    border-radius: 24px;
     font-size: 14px;
+    color: #666;
+    font-weight: 500;
     cursor: pointer;
     transition: all 0.2s ease;
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
 }
 
 .filter-btn.active {
-    background-color: rgba(148, 163, 184, 0.8);
-    border-color: rgba(255,255,255,0.2);
+    background-color: #8b7d6b;
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(139, 125, 107, 0.2);
 }
 
-.filter-btn:hover {
-    background-color: rgba(100, 116, 139, 0.8);
-    transform: translateY(-2px);
+.filter-btn:hover:not(.active) {
+    background-color: #f1eee9;
+    color: #8b7d6b;
 }
 
-/* 瀑布流作品网格 */
+/* 作品画廊（INS风卡片网格） */
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -87,23 +87,19 @@ body {
     margin-bottom: 60px;
 }
 
-/* 作品卡片 */
 .gallery-item {
-    background-color: rgba(255, 255, 255, 0.05);
-    border-radius: 12px;
+    background-color: #fff;
+    border-radius: 16px;
     overflow: hidden;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+    cursor: pointer;
     transition: all 0.3s ease;
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-    border: 1px solid rgba(255,255,255,0.08);
 }
 
 .gallery-item:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.06);
 }
-
 /* 作品图片容器 */
 .item-img {
     width: 100%;
@@ -131,93 +127,48 @@ body {
 .item-title {
     font-size: 18px;
     font-weight: 500;
-    color: #e2e8f0;
+    color: #8b7d6b;
     margin-bottom: 8px;
 }
 
 .item-tag {
     display: inline-block;
     padding: 4px 10px;
-    background-color: rgba(148, 163, 184, 0.2);
+    background-color:#c0beb9;
     border-radius: 4px;
     font-size: 12px;
-    color: #94a3b8;
+    color: #ffffff;
     margin-bottom: 12px;
 }
 
 .item-desc {
     font-size: 14px;
-    color: #94a3b8;
+    color: #000000;
     line-height: 1.5;
 }
-
-/* 图片预览弹窗 */
-.preview-modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0,0,0,0.9);
-    display: none;
-    justify-content: center;
-    align-items: center;
-    z-index: 9999;
-    padding: 20px;
+.gallery-caption {
+    padding: 16px 20px;
 }
 
-.preview-modal.active {
-    display: flex;
+.gallery-caption p {
+    font-size: 14px;
+    color: #777;
 }
 
-.preview-content {
-    position: relative;
-    max-width: 90%;
-    max-height: 90%;
-    cursor: move;
-}
 
-.preview-img {
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 8px;
-}
-
-.close-btn {
-    position: absolute;
-    top: -40px;
-    right: 0;
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    background-color: rgba(51, 63, 81, 0.8);
-    border: none;
-    color: #fff;
-    font-size: 20px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.2s ease;
-}
-
-.close-btn:hover {
-    background-color: #64748b;
-}
-
-/* 移动端适配 */
+/* 响应式适配（INS风移动端优化） */
 @media (max-width: 768px) {
-    .gallery {
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-        gap: 16px;
+    .container {
+        padding: 40px 0 60px;
     }
 
     .header h1 {
-        font-size: 26px;
+        font-size: 28px;
     }
 
-    .item-img {
-        height: 180px;
+    .gallery {
+        grid-template-columns: 1fr;
+        gap: 24px;
     }
 
     .filter-buttons {
@@ -230,16 +181,7 @@ body {
     }
 }
 
-@media (max-width: 480px) {
-    .gallery {
-        grid-template-columns: 1fr;
-    }
-
-    .header {
-        margin: 20px 0 30px;
-    }
-
-    .header h1 {
-        font-size: 22px;
-    }
+/* 隐藏元素（筛选功能用） */
+.hidden {
+    display: none;
 }
