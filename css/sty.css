@@ -1,0 +1,251 @@
+/* 全局重置+基础样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* 柔和米色底，INS风核心 */
+    background-color: #f9f7f5;
+    min-height: 100vh;
+    font-family: "Poppins", "PingFang SC", "Microsoft Yahei", sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* 顶部导航栏（极简悬浮） */
+.header {
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(249, 247, 245, 0.9);
+    backdrop-filter: blur(8px);
+    z-index: 999;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 600;
+    color: #222;
+    letter-spacing: -0.5px;
+}
+
+.logo span {
+    color: #8b7d6b;
+    /* 原木色点缀 */
+}
+
+.nav-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.nav-item {
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.nav-item:hover {
+    color: #8b7d6b;
+}
+
+/* 主内容区 */
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 120px 40px 80px;
+}
+
+/* 欢迎区域（简约留白） */
+.hero {
+    text-align: center;
+    margin-bottom: 80px;
+    padding: 40px 0;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 300;
+    color: #222;
+    margin-bottom: 16px;
+    letter-spacing: -1px;
+}
+
+.hero-title strong {
+    font-weight: 600;
+    color: #8b7d6b;
+}
+
+.hero-desc {
+    font-size: 16px;
+    color: #777;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* 分类导航区 */
+.category-section {
+    margin-bottom: 80px;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.section-title::before {
+    content: "";
+    width: 30px;
+    height: 2px;
+    background-color: #8b7d6b;
+}
+
+/* 导航卡片网格（INS风卡片） */
+.nav-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 32px;
+}
+
+/* 导航卡片（简约圆角+浅阴影） */
+.nav-card {
+    background-color: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.06);
+}
+
+.card-img {
+    width: 100%;
+    height: 180px;
+    background-color: #f1eee9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8b7d6b;
+    font-size: 48px;
+}
+
+.card-content {
+    padding: 24px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.card-desc {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.5;
+}
+
+/* 快捷访问区（极简标签式） */
+.shortcut-section {
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+.shortcut-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.shortcut-item {
+    padding: 10px 20px;
+    background-color: #f9f7f5;
+    border-radius: 32px;
+    transition: all 0.2s ease;
+}
+
+.shortcut-item:hover {
+    background-color: #f1eee9;
+}
+
+.shortcut-link {
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.shortcut-icon {
+    font-size: 16px;
+    color: #8b7d6b;
+}
+
+/* 关于我（简约卡片） */
+#about .nav-card {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#about .card-img {
+    height: 120px;
+    font-size: 36px;
+}
+
+
+/* 响应式适配 */
+@media (max-width: 768px) {
+    .header {
+        padding: 16px 20px;
+    }
+
+    .nav-menu {
+        gap: 20px;
+    }
+
+    .main {
+        padding: 100px 20px 60px;
+    }
+
+    .hero-title {
+        font-size: 36px;
+    }
+
+    .nav-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .shortcut-section {
+        padding: 24px;
+    }
+
+    .shortcut-list {
+        gap: 12px;
+    }
+}
