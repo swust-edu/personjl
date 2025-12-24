@@ -2,19 +2,7 @@
      // 核心：维护所有自定义数据（新增/修改只改这里！）
     // 每个对象对应一个gallery-item卡片，可自定义所有内容
     const galleryData = [
-      {
-        // 图片直链（自定义）
-        imgUrl: "https://zhaohuihui.oss-cn-hangzhou.aliyuncs.com/zhaohuihui/file/1.JPG",
-        // 标题（自定义）
-        title: "轴类零件三维建模",
-        // 标签（自定义）
-        tag: "SolidWorks",
-        // 介绍/描述（自定义）
-        desc: "复杂轴类零件建模，含倒角/键槽/螺纹，符合工程制图标准。",
-        // 分类属性（可选自定义，也可固定）
-        category: "solidworks"
-      },
-      {
+       {
         // 图片直链（自定义）
         imgUrl: "https://zhaohuihui.oss-cn-hangzhou.aliyuncs.com/zhaohuihui/file/A04C975DB6974E34452D6AA66FA59FBC.png",
         // 标题（自定义）
@@ -22,7 +10,19 @@
         // 标签（自定义）
         tag: "SoloidWorks",
         // 介绍/描述（自定义）
-        desc: "泵体零件绘制加装配",
+        desc: "泵的零件绘制加装配",
+        // 分类属性（可选自定义，也可固定）
+        category: "solidworks"
+      },
+      {
+        // 图片直链（自定义）
+        imgUrl: "https://zhaohuihui.oss-cn-hangzhou.aliyuncs.com/zhaohuihui/file/1.JPG",
+        // 标题（自定义）
+        title: "零件三维建模",
+        // 标签（自定义）
+        tag: "SolidWorks",
+        // 介绍/描述（自定义）
+        desc: "复杂轴类零件建模，含倒角/键槽/螺纹，符合工程制图标准。",
         // 分类属性（可选自定义，也可固定）
         category: "solidworks"
       },
@@ -30,7 +30,7 @@
         // 图片直链（自定义）
         imgUrl: "https://zhaohuihui.oss-cn-hangzhou.aliyuncs.com/zhaohuihui/file/2.JPG",
         // 标题（自定义）
-        title: "轴类零件三维建模",
+        title: "零件三维建模",
         // 标签（自定义）
         tag: "SolidWorks",
         // 介绍/描述（自定义）
@@ -42,7 +42,7 @@
         // 图片直链（自定义）
         imgUrl: "https://zhaohuihui.oss-cn-hangzhou.aliyuncs.com/zhaohuihui/file/3.JPG",
         // 标题（自定义）
-        title: "轴类零件三维建模",
+        title: "零件三维建模",
         // 标签（自定义）
         tag: "SolidWorks",
         // 介绍/描述（自定义）
@@ -54,7 +54,7 @@
         // 图片直链（自定义）
         imgUrl: "https://zhaohuihui.oss-cn-hangzhou.aliyuncs.com/zhaohuihui/file/4.JPG",
         // 标题（自定义）
-        title: "轴类零件三维建模",
+        title: "零件三维建模",
         // 标签（自定义）
         tag: "UG/NX",
         // 介绍/描述（自定义）
@@ -66,7 +66,7 @@
         // 图片直链（自定义）
         imgUrl: "https://zhaohuihui.oss-cn-hangzhou.aliyuncs.com/zhaohuihui/file/5.JPG",
         // 标题（自定义）
-        title: "轴类零件三维建模",
+        title: "零件三维建模",
         // 标签（自定义）
         tag: "AutoCAD",
         // 介绍/描述（自定义）
@@ -74,6 +74,7 @@
         // 分类属性（可选自定义，也可固定）
         category: "autocad"
       },
+     
       /*
       {
         // 图片直链（自定义）
@@ -138,45 +139,4 @@
             });
         });
     });
-
-    // 图片预览功能
-    const previewModal = document.getElementById('previewModal');
-    const previewImg = document.getElementById('previewImg');
-    const previewContent = document.getElementById('previewContent');
-    const closeBtn = document.getElementById('closeBtn');
-    const itemImgs = document.querySelectorAll('.item-img');
-
-    // 点击图片打开预览
-    itemImgs.forEach(img => {
-        img.addEventListener('click', () => {
-            const imgSrc = img.getAttribute('data-img');
-            previewImg.src = imgSrc;
-            previewModal.classList.add('active');
-            // 禁止页面滚动
-            document.body.style.overflow = 'hidden';
-        });
-    });
-
-    // 关闭预览
-    closeBtn.addEventListener('click', () => {
-        previewModal.classList.remove('active');
-        // 恢复页面滚动
-        document.body.style.overflow = 'auto';
-        // 重置图片位置和缩放
-        previewContent.style.transform = 'translate(0,0) scale(1)';
-        isDragging = false;
-        startX = 0;
-        startY = 0;
-        currentScale = 1;
-    });
-
-    // 点击弹窗空白处关闭
-    previewModal.addEventListener('click', (e) => {
-        if (e.target === previewModal) {
-            closeBtn.click();
-        }
-    });
-
-   
-
 
