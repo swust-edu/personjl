@@ -1,0 +1,654 @@
+{
+  "code": 200,
+  "msg": "获取成功",
+  "data": {
+    "uid": "2118268927",
+    "songName": "千丝戏纸鹤喜欢的音乐",
+    "songPic": "https://p1.music.126.net/7GiXyPDa8KBZU_kEYIk6wQ==/109951168882547774.jpg",
+    "userName": "千丝戏纸鹤",
+    "userAvatar": "https://p1.music.126.net/EdgD8u1k9fdh-_mS11WaKA==/109951165263317622.jpg",
+    "userSignature": "不只是最后一个..",
+    "songs": [
+      {
+        "id": 1393412185,
+        "name": "Maybe",
+        "artistsname": "mixed matches,Lukrative",
+        "picurl": "https://p1.music.126.net/JpPEehyuv2IMtDXGkt6pTQ==/109951168881039794.jpg",
+        "album": "Ready for the World",
+        "duration": 171111
+      },
+      {
+        "id": 2621923238,
+        "name": "不凡2024 (live)",
+        "artistsname": "王铮亮",
+        "picurl": "https://p1.music.126.net/EJWNXH6GpiCc8h_PPzOQqw==/109951169913357012.jpg",
+        "album": "巅峰挑战直播赛",
+        "duration": 247792
+      },
+      {
+        "id": 529668356,
+        "name": "你要的全拿走",
+        "artistsname": "胡彦斌",
+        "picurl": "https://p1.music.126.net/um599QnnJiNQhZgWLtgmXw==/109951168111322942.jpg",
+        "album": "覅忒好",
+        "duration": 299346
+      },
+      {
+        "id": 2692390755,
+        "name": "第57次取消发送（加速版）",
+        "artistsname": "菲菲公主（陆绮菲）",
+        "picurl": "https://p1.music.126.net/urn8LGHXlT4XLnpliFBXLQ==/109951171482450403.jpg",
+        "album": "第57次取消发送",
+        "duration": 155620
+      },
+      {
+        "id": 3328971988,
+        "name": "The King",
+        "artistsname": "Hybly",
+        "picurl": "https://p1.music.126.net/I1yMP8LsdKfli2dHDcjNFA==/109951172441055331.jpg",
+        "album": "A Kingdom Far, Far Away",
+        "duration": 179000
+      },
+      {
+        "id": 2095876512,
+        "name": "探故知",
+        "artistsname": "浅影阿,汐音社",
+        "picurl": "https://p1.music.126.net/-I9yU4vB4nYPPAZ3ugHpvw==/109951169024567662.jpg",
+        "album": "探故知",
+        "duration": 201600
+      },
+      {
+        "id": 2743486511,
+        "name": "一点点（为什么晚上总是有星星）",
+        "artistsname": "芊芊龍,董唧唧",
+        "picurl": "https://p1.music.126.net/bUsgLVeYztZTrT7qgdisTA==/109951171976155929.jpg",
+        "album": "一点点（为什么晚上总是有星星）",
+        "duration": 177902
+      },
+      {
+        "id": 287319,
+        "name": "遇见",
+        "artistsname": "孙燕姿",
+        "picurl": "https://p1.music.126.net/pQnsyev650dd7V2da-u7Sw==/109951169717940503.jpg",
+        "album": "The Moment",
+        "duration": 209760
+      },
+      {
+        "id": 2692390754,
+        "name": "第57次取消发送",
+        "artistsname": "菲菲公主（陆绮菲）",
+        "picurl": "https://p1.music.126.net/urn8LGHXlT4XLnpliFBXLQ==/109951171482450403.jpg",
+        "album": "第57次取消发送",
+        "duration": 180560
+      },
+      {
+        "id": 1378492142,
+        "name": "愛にできることはまだあるかい (Movie edit)",
+        "artistsname": "RADWIMPS",
+        "picurl": "https://p1.music.126.net/dRwInA9PpkiKkmNWeUvi0w==/109951164220136544.jpg",
+        "album": "天気の子",
+        "duration": 150653
+      },
+      {
+        "id": 2658154348,
+        "name": "游京 (我闻着饼香)",
+        "artistsname": "Dj阿农",
+        "picurl": "https://p1.music.126.net/ENeEcRyp5fu_x0MYfxzQag==/109951170281627001.jpg",
+        "album": "游京（我闻着饼香）",
+        "duration": 218871
+      },
+      {
+        "id": 1420706073,
+        "name": "离开我的依赖",
+        "artistsname": "王艳薇",
+        "picurl": "https://p1.music.126.net/btYBbFLd5mf9w0lDpfNs6w==/109951171506809884.jpg",
+        "album": "离开我的依赖",
+        "duration": 233882
+      },
+      {
+        "id": 2068046512,
+        "name": "落了白",
+        "artistsname": "蒋雪儿Snow.J",
+        "picurl": "https://p1.music.126.net/plRPFkz46WBYj4Oz9zxw2w==/109951168771849563.jpg",
+        "album": "落了白",
+        "duration": 180821
+      },
+      {
+        "id": 26428032,
+        "name": "Baby, Don't Cry (人鱼的眼泪)",
+        "artistsname": "EXO",
+        "picurl": "https://p1.music.126.net/jE-pJWN1TFqkEqJT6RShWw==/2289183209092034.jpg",
+        "album": "The 1st Album XOXO (KISS&HUG)",
+        "duration": 235946
+      },
+      {
+        "id": 2739811598,
+        "name": "当真爱降临时 (We Don't Talk Anymore)",
+        "artistsname": "车内乘客的三轮",
+        "picurl": "https://p1.music.126.net/xbMHXV_eT5uvtxRFy7ImCw==/109951171928009625.jpg",
+        "album": "当真爱降临时 (We Don't Talk Anymore)",
+        "duration": 103432
+      },
+      {
+        "id": 446512853,
+        "name": "Phone Kisses",
+        "artistsname": "suhmeduh",
+        "picurl": "https://p1.music.126.net/C7gFnYqka7d1Adw0jhphEg==/109951171259522112.jpg",
+        "album": "Phone Kisses",
+        "duration": 122006
+      },
+      {
+        "id": 2683044163,
+        "name": "最后一页祝我们都幸福",
+        "artistsname": "晓风",
+        "picurl": "https://p1.music.126.net/ssHyim2-UQREfa6d0IRjLQ==/109951170596296729.jpg",
+        "album": "最后一页祝我们都幸福",
+        "duration": 135497
+      },
+      {
+        "id": 25714102,
+        "name": "一个人想着一个人",
+        "artistsname": "曾沛慈",
+        "picurl": "https://p1.music.126.net/7136kwDE1UvY6uh0VXQ01g==/109951167220899564.jpg",
+        "album": "终极一班2 (电视原声带)",
+        "duration": 243666
+      },
+      {
+        "id": 3322063476,
+        "name": "Falling U (风铃粤语版)",
+        "artistsname": "善宇",
+        "picurl": "https://p1.music.126.net/9jtuIIG5ybRzUiLHQEwt9A==/109951172346529086.jpg",
+        "album": "Falling U (风铃粤语版)",
+        "duration": 182769
+      },
+      {
+        "id": 2645500113,
+        "name": "跳楼机",
+        "artistsname": "LBI利比",
+        "picurl": "https://p1.music.126.net/cmoE8PsdK_Yn9VJ8ZVCGrw==/109951170507596121.jpg",
+        "album": "跳楼机",
+        "duration": 201711
+      },
+      {
+        "id": 2161223232,
+        "name": "沦陷",
+        "artistsname": "JuggShots",
+        "picurl": "https://p1.music.126.net/ctib5R--oR68W2IrOk765w==/109951169635716223.jpg",
+        "album": "沦陷",
+        "duration": 142620
+      },
+      {
+        "id": 571478939,
+        "name": "510",
+        "artistsname": "HeRo.H",
+        "picurl": "https://p1.music.126.net/yOuler8wARMnGyS6Oe29pg==/109951163335375473.jpg",
+        "album": "五一〇",
+        "duration": 115632
+      },
+      {
+        "id": 27681762,
+        "name": "Cry For Me (feat. Ami)",
+        "artistsname": "Michita",
+        "picurl": "https://p1.music.126.net/_H3e0aBI7J1HDxvRSiylEg==/109951170493312484.jpg",
+        "album": "Pureness",
+        "duration": 302866
+      },
+      {
+        "id": 1394167216,
+        "name": "知我",
+        "artistsname": "国风堂,哦漏",
+        "picurl": "https://p1.music.126.net/_etyUh1ofScyTMFArsJXWg==/109951164415301539.jpg",
+        "album": "知我",
+        "duration": 277321
+      },
+      {
+        "id": 25641873,
+        "name": "爱错",
+        "artistsname": "王力宏",
+        "picurl": "https://p1.music.126.net/XG0roNB7-y_xUmvKlRDwhg==/109951172128958146.jpg",
+        "album": "心中的日月",
+        "duration": 238826
+      },
+      {
+        "id": 2604592456,
+        "name": "暮色回响",
+        "artistsname": "张韶涵",
+        "picurl": "https://p1.music.126.net/WxDbgJRBVWj1p9kdDqTFbg==/109951169746442412.jpg",
+        "album": "暮色回响",
+        "duration": 181380
+      },
+      {
+        "id": 1485309885,
+        "name": "Call Me Now",
+        "artistsname": "Michael Calfan,INNA",
+        "picurl": "https://p1.music.126.net/p08_rAuq8ykM8ZSNdT8Myw==/109951165373637524.jpg",
+        "album": "Call Me Now",
+        "duration": 146866
+      },
+      {
+        "id": 1833834371,
+        "name": "偏向",
+        "artistsname": "陈子晴",
+        "picurl": "https://p1.music.126.net/iGqNMLC3U22OGpeHvqDolQ==/109951165849690476.jpg",
+        "album": "偏向",
+        "duration": 186000
+      },
+      {
+        "id": 2599506814,
+        "name": "你听远山悲悯",
+        "artistsname": "Vodax",
+        "picurl": "https://p1.music.126.net/F2i-dvC5pZqLWJk518jOhA==/109951169694702989.jpg",
+        "album": "你听远山悲悯",
+        "duration": 97245
+      },
+      {
+        "id": 2093682576,
+        "name": "i watch the moon",
+        "artistsname": "东 百 下 小 雨",
+        "picurl": "https://p1.music.126.net/qbt5ydRH8Dm9U_3nx6ypVA==/109951168903720831.jpg",
+        "album": "i watch the moon",
+        "duration": 82918
+      },
+      {
+        "id": 2124385868,
+        "name": "如果爱忘了 (live)",
+        "artistsname": "汪苏泷,单依纯",
+        "picurl": "https://p1.music.126.net/3nL__2mV7k65XMoUw6Gu-g==/109951169721390560.jpg",
+        "album": "声生不息·家年华 第12期",
+        "duration": 245394
+      },
+      {
+        "id": 2119754300,
+        "name": "Moshi Moshi (feat. 百足) [Sped up]",
+        "artistsname": "Nozomi Kitay,GAL D,百足",
+        "picurl": "https://p1.music.126.net/Er1V1rqk1m5R9n1aWKXbLQ==/109951169278000751.jpg",
+        "album": "Moshi Moshi (feat. 百足) [Sped up]",
+        "duration": 147460
+      },
+      {
+        "id": 442869301,
+        "name": "Shed a Light",
+        "artistsname": "Robin Schulz,David Guetta,Cheat Codes",
+        "picurl": "https://p1.music.126.net/go-_ZIKSNFt3LQOpXq3Q-Q==/109951167205081074.jpg",
+        "album": "Shed a Light",
+        "duration": 191379
+      },
+      {
+        "id": 460578140,
+        "name": "感谢你曾来过",
+        "artistsname": "周思涵,Ayo97",
+        "picurl": "https://p1.music.126.net/iL36G-e6rm2zwCUmlL4pOw==/109951162859100521.jpg",
+        "album": "卧龙与酒",
+        "duration": 250005
+      },
+      {
+        "id": 223801,
+        "name": "猜不透",
+        "artistsname": "丁当",
+        "picurl": "https://p1.music.126.net/3Ji3wr_G6sodz4XAQk6NkQ==/109951168163335988.jpg",
+        "album": "我爱上的",
+        "duration": 233360
+      },
+      {
+        "id": 2110700886,
+        "name": "冬眠·2023 (伴奏)",
+        "artistsname": "阿YueYue,刘兆宇",
+        "picurl": "https://p1.music.126.net/iNk6NRXhVBzJ-IU9Jx-k3w==/109951169220031390.jpg",
+        "album": "冬眠·2023",
+        "duration": 191641
+      },
+      {
+        "id": 1482918231,
+        "name": "执迷不悟",
+        "artistsname": "小乐哥（王唯乐）",
+        "picurl": "https://p1.music.126.net/9Pcwytb4U9QrgiuUnxfalg==/109951165349948452.jpg",
+        "album": "执迷不悟",
+        "duration": 234611
+      },
+      {
+        "id": 1895705100,
+        "name": "Say U Love Me 2",
+        "artistsname": "Linnea Andersson",
+        "picurl": "https://p1.music.126.net/ZmHCZwdtkk3eoGqIVnRWMQ==/109951169632773761.jpg",
+        "album": "Say U Love Me 2",
+        "duration": 199300
+      },
+      {
+        "id": 1398283847,
+        "name": "我只能离开",
+        "artistsname": "颜人中",
+        "picurl": "https://p1.music.126.net/5GPFbTQU-kW57PGv_7LeBw==/109951164440649436.jpg",
+        "album": "初恋那件小事 电视剧原声带",
+        "duration": 230000
+      },
+      {
+        "id": 25638340,
+        "name": "此生不换",
+        "artistsname": "青鸟飞鱼",
+        "picurl": "https://p1.music.126.net/UyDVlWWgOn8p8U8uQ_I1xQ==/7934075907687518.jpg",
+        "album": "此生不换",
+        "duration": 265866
+      },
+      {
+        "id": 3314318662,
+        "name": "回不去的何止时间 (钢琴版)",
+        "artistsname": "陈墨一（吖毛）",
+        "picurl": "https://p1.music.126.net/qogQ7KcmP_HFhbXndgDryw==/109951172236450154.jpg",
+        "album": "回不去的何止时间 (钢琴版)",
+        "duration": 202887
+      },
+      {
+        "id": 2076696501,
+        "name": "最好的安排 (释怀版)",
+        "artistsname": "苏星婕",
+        "picurl": "https://p1.music.126.net/635qbmLGdwrXVcUTQ7R_iA==/109951168869467508.jpg",
+        "album": "最好的安排 (释怀版)",
+        "duration": 222129
+      },
+      {
+        "id": 1887139866,
+        "name": "指纹",
+        "artistsname": "杜宣达",
+        "picurl": "https://p1.music.126.net/kT4AECoc13oVKLEg_-eFMA==/109951166578436098.jpg",
+        "album": "指纹",
+        "duration": 240272
+      },
+      {
+        "id": 2147498798,
+        "name": "重生之我在异乡为异客",
+        "artistsname": "王睿卓,Damn5Z",
+        "picurl": "https://p1.music.126.net/n67oiWTXwYvgkSJSA434zw==/109951169511322802.jpg",
+        "album": "重生之我在异乡为异客",
+        "duration": 197500
+      },
+      {
+        "id": 2743112213,
+        "name": "沉溺 (0.8x)",
+        "artistsname": "邹沛沛,Pank",
+        "picurl": "https://p1.music.126.net/qMXkp5Dt7MngOkLEbBK3NQ==/109951171971379142.jpg",
+        "album": "沉溺 (变速版)",
+        "duration": 217595
+      },
+      {
+        "id": 2119795491,
+        "name": "若月亮没来 (若是月亮还没来)",
+        "artistsname": "王宇宙Leto,乔浚丞",
+        "picurl": "https://p1.music.126.net/Bb50pyrAJzR3ZsjxILnO6A==/109951169278248355.jpg",
+        "album": "若月亮没来（若是月亮还没来）",
+        "duration": 173822
+      },
+      {
+        "id": 85571,
+        "name": "我们俩",
+        "artistsname": "郭顶",
+        "picurl": "https://p1.music.126.net/Zxb_k2LI77GLmXGg-k2r0g==/109951170514277229.jpg",
+        "album": "微微",
+        "duration": 193600
+      },
+      {
+        "id": 2526625,
+        "name": "Booty Music",
+        "artistsname": "Deep Side",
+        "picurl": "https://p1.music.126.net/dUSiZ5ASRpWgaq9OTMtoDw==/860917604602698.jpg",
+        "album": "Git Fresh",
+        "duration": 181812
+      },
+      {
+        "id": 209046,
+        "name": "下一次爱情来的时候",
+        "artistsname": "蔡健雅",
+        "picurl": "https://p1.music.126.net/XimQqI8ilRweP5yd8pQVSQ==/109951168637068609.jpg",
+        "album": "双栖动物",
+        "duration": 258325
+      },
+      {
+        "id": 1955598800,
+        "name": "Done Talking",
+        "artistsname": "EK Darkurai",
+        "picurl": "https://p1.music.126.net/YWhBt8yD19xUgwi7S8Xl9w==/109951167546203087.jpg",
+        "album": "Done Talking",
+        "duration": 80815
+      },
+      {
+        "id": 1851344107,
+        "name": "裹着心的光",
+        "artistsname": "林俊杰",
+        "picurl": "https://p1.music.126.net/_23b-9ZixcUYjDDClJ9Mjg==/109951166068574134.jpg",
+        "album": "裹着心的光",
+        "duration": 273030
+      },
+      {
+        "id": 2061508318,
+        "name": "TIRED OF PROBLEMS (SLOWED)",
+        "artistsname": "NUEKI,TOLCHONOV,Glichery",
+        "picurl": "https://p1.music.126.net/ekU7ze2Ts13wvcS-s9kPUg==/109951168719024841.jpg",
+        "album": "TIRED OF PROBLEMS",
+        "duration": 129942
+      },
+      {
+        "id": 33190605,
+        "name": "Landslide",
+        "artistsname": "Oh Wonder",
+        "picurl": "https://p1.music.126.net/tMxtB-0f2b0IoFZrBwKGTw==/109951167002309704.jpg",
+        "album": "Landslide",
+        "duration": 208229
+      },
+      {
+        "id": 2147186636,
+        "name": "还是会想你",
+        "artistsname": "DJ阿智",
+        "picurl": "https://p1.music.126.net/0ju8ET1ApZSXfWacc4w49w==/109951169484091680.jpg",
+        "album": "",
+        "duration": 66966
+      },
+      {
+        "id": 1381365571,
+        "name": "Daylight（Acyanxi Remix）",
+        "artistsname": "Acyanxi,Seredris",
+        "picurl": "https://p1.music.126.net/UHz5KOH2yD91xfnMIeNxRg==/109951164255382681.jpg",
+        "album": "Daylight",
+        "duration": 298412
+      },
+      {
+        "id": 247936,
+        "name": "最后一页",
+        "artistsname": "江语晨",
+        "picurl": "https://p1.music.126.net/3UVDYMN--zrYB8RK53-4Fg==/109951171932414834.jpg",
+        "album": "恋习",
+        "duration": 245547
+      },
+      {
+        "id": 65739,
+        "name": "Everywhere We Go",
+        "artistsname": "陈冠希,MC仁,厨房仔,应采儿",
+        "picurl": "https://p1.music.126.net/hDa6w1Bw7LfUPw2VSa0HAw==/18564154325374364.jpg",
+        "album": "三角度",
+        "duration": 259346
+      },
+      {
+        "id": 39227633,
+        "name": "His Theme",
+        "artistsname": "Toby Fox",
+        "picurl": "https://p1.music.126.net/mQcab-6L7D-w1lRxmYB7MQ==/109951168015051713.jpg",
+        "album": "UNDERTALE Soundtrack",
+        "duration": 125333
+      },
+      {
+        "id": 2063864551,
+        "name": "瞬",
+        "artistsname": "郑润泽",
+        "picurl": "https://p1.music.126.net/rYmW2dKFseH2GYcVk8Lrqw==/109951168737879331.jpg",
+        "album": "瞬",
+        "duration": 284925
+      },
+      {
+        "id": 2051548110,
+        "name": "Nothin' on Me",
+        "artistsname": "Leah Marie Perez",
+        "picurl": "https://p1.music.126.net/qT1Smiu67dPuPfELwgXH8g==/109951168647276075.jpg",
+        "album": "Nothin' on Me",
+        "duration": 217663
+      },
+      {
+        "id": 34920063,
+        "name": "Payphone",
+        "artistsname": "Maroon 5,Wiz Khalifa",
+        "picurl": "https://p1.music.126.net/UmK2X_igSsEdRhMgT3rRlA==/109951170244671015.jpg",
+        "album": "Singles",
+        "duration": 232320
+      },
+      {
+        "id": 27571925,
+        "name": "All My People (Extended Version)",
+        "artistsname": "Alexandra Stan,Manilla Maniacs",
+        "picurl": "https://p1.music.126.net/4pnmZu3FempGsh_ueoyCRA==/109951169369912279.jpg",
+        "album": "All My People",
+        "duration": 259196
+      },
+      {
+        "id": 2089977009,
+        "name": "有你在",
+        "artistsname": "Rosy赵露思",
+        "picurl": "https://p1.music.126.net/CseumudCGxCT2QmFk_qe1Q==/109951169493100129.jpg",
+        "album": "有你在",
+        "duration": 152578
+      },
+      {
+        "id": 437856411,
+        "name": "Catch My Breath",
+        "artistsname": "Kelly Clarkson",
+        "picurl": "https://p1.music.126.net/fSamrzvj4_xk63YH7FTVJQ==/109951168532943020.jpg",
+        "album": "Catch My Breath",
+        "duration": 251800
+      },
+      {
+        "id": 5151151,
+        "name": "Touch My Body-(Craig C Radio Edit)",
+        "artistsname": "Mariah Carey",
+        "picurl": "https://p1.music.126.net/2OI5AV61hGgwokuRd6ufgw==/1792203953287556.jpg",
+        "album": "Radioplay Pop Express 785P",
+        "duration": 242773
+      },
+      {
+        "id": 482636090,
+        "name": "Call of Silence",
+        "artistsname": "澤野弘之,R!N/Gemie",
+        "picurl": "https://p1.music.126.net/nRuQt_bbbiQ70CxwXUHXOQ==/109951163597044887.jpg",
+        "album": "TVアニメ「進撃の巨人」Season 2 オリジナルサウンドトラック",
+        "duration": 178213
+      },
+      {
+        "id": 1981613252,
+        "name": "ไม่ได้ก็ไม่เอา (Whatever)",
+        "artistsname": "PiXXiE,Zom Marie",
+        "picurl": "https://p1.music.126.net/Pv3NVBaK85v2ow8Xx5bS9g==/109951167879829957.jpg",
+        "album": "BLOOM",
+        "duration": 168857
+      },
+      {
+        "id": 1931176549,
+        "name": "Shadow of the Sun",
+        "artistsname": "Max Elto",
+        "picurl": "https://p1.music.126.net/L2yNOpWm_aKJxOtcHPxzwQ==/109951167187622089.jpg",
+        "album": "Shadow Of The Sun",
+        "duration": 145780
+      },
+      {
+        "id": 2138070939,
+        "name": "You & Me（翻自 Fingazz、H-Slang & Choco）",
+        "artistsname": "Garmi钙米",
+        "picurl": "https://p1.music.126.net/n1TA9CF0jSngpmdSUh9J-A==/109951169432401193.jpg",
+        "album": "非主流END",
+        "duration": 229589
+      },
+      {
+        "id": 205274,
+        "name": "一直很安静",
+        "artistsname": "阿桑",
+        "picurl": "https://p1.music.126.net/mN9uAulDAUbmFleuAaUIRA==/109951165694514502.jpg",
+        "album": "寂寞在唱歌",
+        "duration": 250080
+      },
+      {
+        "id": 1958771218,
+        "name": "爱怎么了",
+        "artistsname": "陈村长",
+        "picurl": "https://p1.music.126.net/F_CLtLUEht8gm6F6VZ2Tlg==/109951167585870153.jpg",
+        "album": "爱怎么了",
+        "duration": 239076
+      },
+      {
+        "id": 2018432856,
+        "name": "循迹",
+        "artistsname": "王子健",
+        "picurl": "https://p1.music.126.net/pwBA9COg9G8bUw0GOUlDzQ==/109951168271926504.jpg",
+        "album": "循迹",
+        "duration": 197175
+      },
+      {
+        "id": 1997345349,
+        "name": "Cure For Me",
+        "artistsname": "AURORA",
+        "picurl": "https://p1.music.126.net/DJDUb3iCD_J-36wbFfpUug==/109951168049385322.jpg",
+        "album": "Cure For Me",
+        "duration": 201640
+      },
+      {
+        "id": 2020291354,
+        "name": "STAY (Nitti Gritti Remix)",
+        "artistsname": "NITTI,The Kid LAROI,Justin Bieber",
+        "picurl": "https://p1.music.126.net/Y9ls4zlwI6CYOrYRAlGt6w==/109951168290058296.jpg",
+        "album": "STAY (Nitti Gritti Remix)",
+        "duration": 154560
+      },
+      {
+        "id": 82532,
+        "name": "最好的我",
+        "artistsname": "房祖名,龚芝怡",
+        "picurl": "https://p1.music.126.net/5iM3nVTJHpAPJetxLiIdig==/109951169664174099.jpg",
+        "album": "乱",
+        "duration": 313453
+      },
+      {
+        "id": 1969039800,
+        "name": "如果的事 (男声版)",
+        "artistsname": "TerryZhong钟天利,杜宣达,小包Zerinn",
+        "picurl": "https://p1.music.126.net/9JI_cMItV4ZG3qksvZo7zw==/109951167739924367.jpg",
+        "album": "如果的事 (男声版)",
+        "duration": 175238
+      },
+      {
+        "id": 550297837,
+        "name": "Sweet Dreams",
+        "artistsname": "Breathe Carolina,Dropgun,Kaleena Zanders",
+        "picurl": "https://p1.music.126.net/9XYQW2dtsIObWUZk6GOWRQ==/109951163710671869.jpg",
+        "album": "Sweet Dreams",
+        "duration": 159375
+      },
+      {
+        "id": 472219715,
+        "name": "Superstar (Dirty Rush & Gregor Es Remix)",
+        "artistsname": "Mandee,Dirty Rush & Gregor Es,Maria Mathea",
+        "picurl": "https://p1.music.126.net/OF-ZVE_oPqzC_92-Nv3I3Q==/18846728811717413.jpg",
+        "album": "Superstar (Remixes)",
+        "duration": 348531
+      },
+      {
+        "id": 2137790966,
+        "name": "失眠循环",
+        "artistsname": "韩可可",
+        "picurl": "https://p1.music.126.net/0ju8ET1ApZSXfWacc4w49w==/109951169484091680.jpg",
+        "album": "",
+        "duration": 204836
+      },
+      {
+        "id": 1438434889,
+        "name": "你是人间四月天(Au男声版)",
+        "artistsname": "仇远旭",
+        "picurl": "https://p1.music.126.net/QulS-zLNkqcK0WjRQvRbTQ==/109951164879715565.jpg",
+        "album": "时间诠释真爱",
+        "duration": 229080
+      }
+    ]
+  }
+}
