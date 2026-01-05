@@ -6,10 +6,18 @@ document.addEventListener('DOMContentLoaded', () => {
     const resultArea = document.getElementById('resultArea');
     const previewGrid = document.getElementById('previewGrid');
 
+
+
+    function extractDouyinUrl(text) {
+        // 匹配规则：以https开头 + 包含douyin.com/dy/ 或 v.douyin.com/ + 直到/结束
+        const reg = /https?:\/\/(?:v\.douyin\.com|www\.douyin\.com\/dy)\/[a-zA-Z0-9]+\/?/i;
+        const match = text.match(reg);
+        return match ? match[0].trim() : null;
+    }
     // 2. 解析并渲染图片（仅保留核心逻辑）
     parseBtn.addEventListener('click', () => {
-        const userUrl = douyinUrlInput.value.trim();
-        if (!userUrl) {
+        const mixedText = douyinUrlInput.value.trim();
+        if (!mixedText) {
             alert('请输入抖音链接');
             return;
         }
@@ -22,12 +30,24 @@ document.addEventListener('DOMContentLoaded', () => {
         previewGrid.innerHTML = '<p style="color:#999;text-align:center;padding:20px 0;">正在解析...</p>';
 
         // 拼接链接（核心）
-        const fullApiUrl = API_PREFIX + encodeURIComponent(userUrl);
+
+
+
+
+        // 2. 提取纯抖音链接
+        const pureDouyinUrl = extractDouyinUrl(mixedText);
+        if (!pureDouyinUrl) {
+            alert('未从文本中提取到有效的抖音链接！');
+            return;
+        }
+
+
+        const fullApiUrl = API_PREFIX + encodeURIComponent(pureDouyinUrl);
         console.log(fullApiUrl)
         // 发起请求（不做代理，仅基础逻辑）
         fetch(fullApiUrl)
             .then(res => res.json())
-           
+
             .then(data => {
                 previewGrid.innerHTML = '';
 
