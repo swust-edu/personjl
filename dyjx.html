@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INS风 | 抖音图文解析工具</title>
+    <!-- 引入Font Awesome图标 -->
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- 引入谷歌字体（INS常用字体） -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/dy.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- 页面标题 -->
+        <div class="page-header">
+            <h1 class="page-title">抖音图文解析</h1>
+            <p class="page-subtitle">粘贴抖音链接，解析并下载高清图片/视频</p>
+        </div>
+
+        <!-- 解析功能卡片 -->
+        <div class="parse-card">
+            <div class="input-group">
+                <label class="input-label" for="douyinUrl">抖音链接</label>
+                <input type="text" id="douyinUrl" class="parse-input" placeholder="请粘贴抖音分享链接（复制链接后粘贴到这里）">
+            </div>
+
+            <button class="parse-btn" id="parseBtn">
+                <i class="fas fa-magic"></i>
+                开始解析
+            </button>
+
+            <!-- 解析结果区域 -->
+            <div class="result-area" id="resultArea">
+                <h3 class="result-title">
+                    <i class="fas fa-image"></i>
+                    解析结果
+                </h3>
+
+                <!-- 图片预览网格 -->
+                <div class="preview-grid" id="previewGrid"></div>
+
+                <!-- 下载按钮组 -->
+                <div class="download-group">
+                    <button class="download-btn" id="downloadAllBtn">
+                        <i class="fas fa-download"></i>
+                        下载全部
+                    </button>
+                    <button class="download-btn" id="copyLinkBtn">
+                        <i class="fas fa-link"></i>
+                        复制原图链接
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 底部说明 -->
+        <div class="page-footer">
+            <p>INS Style © 2025 抖音图文解析工具 | 仅用于个人学习使用</p>
+        </div>
+    </div>
+
+
+</body>
+<script src="js/dy.js" defer></script>
+</html>
