@@ -1,0 +1,205 @@
+/* 全局样式 - INS核心风格：低饱和、圆角、极简 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', 'PingFang SC', 'Microsoft Yahei', sans-serif;
+}
+
+body {
+    background-color: #f9f7f5;
+    /* INS经典浅米色背景 */
+    color: #222;
+    min-height: 100vh;
+    padding: 2rem 1rem;
+}
+
+/* 容器：居中+最大宽度限制 */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* 页面标题区 - INS风格标题 */
+.page-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.page-title {
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #111;
+    letter-spacing: -0.5px;
+    margin-bottom: 0.5rem;
+}
+
+.page-subtitle {
+    color: #777;
+    font-size: 0.95rem;
+    font-weight: 300;
+}
+
+/* 解析功能卡片 - INS核心卡片样式 */
+.parse-card {
+    background-color: #fff;
+    border-radius: 20px;
+    /* INS大圆角 */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+    /* 轻阴影 */
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* 输入框区域 */
+.input-group {
+    margin-bottom: 1.5rem;
+}
+
+.input-label {
+    display: block;
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 0.6rem;
+}
+
+.parse-input {
+    width: 100%;
+    padding: 1rem 1.2rem;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    /* INS中小圆角 */
+    font-size: 0.95rem;
+    background-color: #faf9f7;
+    transition: border-color 0.2s ease;
+}
+
+.parse-input:focus {
+    outline: none;
+    border-color: #d4cbc1;
+    /* INS原木色边框 */
+}
+
+/* 解析按钮 - INS风格按钮 */
+.parse-btn {
+    width: 100%;
+    padding: 1rem;
+    background-color: #222;
+    /* INS经典黑色 */
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.parse-btn:hover {
+    background-color: #444;
+}
+
+.parse-btn i {
+    font-size: 1.1rem;
+}
+
+/* 解析结果区域 */
+.result-area {
+    margin-top: 2rem;
+    display: none;
+    /* 默认隐藏 */
+}
+
+.result-title {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.result-title i {
+    color: #d4cbc1;
+}
+
+/* 图片预览网格 - INS图片布局 */
+.preview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.preview-item {
+    border-radius: 10px;
+    overflow: hidden;
+    aspect-ratio: 1;
+    background-color: #faf9f7;
+}
+
+.preview-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.2s ease;
+}
+
+.preview-item img:hover {
+    transform: scale(1.05);
+}
+
+/* 下载按钮组 */
+.download-group {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.download-btn {
+    padding: 0.6rem 1.2rem;
+    background-color: #faf9f7;
+    color: #555;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.download-btn:hover {
+    background-color: #d4cbc1;
+    color: #fff;
+}
+
+/* 底部说明 - INS极简文字 */
+.page-footer {
+    text-align: center;
+    margin-top: 3rem;
+    color: #999;
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
+
+/* 响应式适配 */
+@media (max-width: 480px) {
+    .page-title {
+        font-size: 1.8rem;
+    }
+
+    .parse-card {
+        padding: 1.5rem;
+    }
+
+    .preview-grid {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    }
+}
